@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'slave'
+            label '135_slave'
         }
       }
     triggers {
